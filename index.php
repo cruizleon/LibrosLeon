@@ -8,66 +8,66 @@ and open the template in the editor.
 <html>
     <head>
         <title>Libros Leon</title>
-            <meta charset="UTF-8">
-            <meta name="description" content="Ejemplo de HTML5">
-            <meta name="keywords" content="HTML5, CSS3, JavaScript">
-            <meta charset="iso-8859-1">
-            <title>Este texto es el título del documento</title>
-            <link rel="stylesheet" href="misestilos.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Ejemplo de HTML5">
+        <meta name="keywords" content="HTML5, CSS3, JavaScript">
+        <meta charset="iso-8859-1">
+        <title>Este texto es el título del documento</title>
+        <link rel="stylesheet" href="misestilos.css">
             
-            <style type="text/css">
+        <style type="text/css">
 			
-			* {
-				margin:0px;
-				padding:0px;
-			}
+            * {
+		margin:0px;
+		padding:0px;
+            }
 			
-			#header {
-				margin:auto;
-				width:500px;
-				font-family:Arial, Helvetica, sans-serif;
-			}
+            #header {
+		margin:auto;
+		width:500px;
+		font-family:Arial, Helvetica, sans-serif;
+            }
 			
-			ul, ol {
-				list-style:none;
-			}
+            ul, ol {
+		list-style:none;
+            }
 			
-			.nav > li {
-				float:left;
-			}
+            .nav > li {
+		float:left;
+            }
 			
-			.nav li a {
-				background-color:#000;
-				color:#fff;
-				text-decoration:none;
-				padding:10px 12px;
-				display:block;
-			}
+            .nav li a {
+		background-color:#000;
+		color:#fff;
+                text-decoration:none;
+		padding:10px 12px;
+		display:block;
+            }
 			
-			.nav li a:hover {
-				background-color:#434343;
-			}
+            .nav li a:hover {
+                background-color:#434343;
+            }
 			
-			.nav li ul {
-				display:none;
-				position:absolute;
-				min-width:140px;
-			}
+            .nav li ul {
+		display:none;
+		position:absolute;
+		min-width:140px;
+            }
 			
-			.nav li:hover > ul {
-				display:block;
-			}
+            .nav li:hover > ul {
+		display:block;
+            }
 			
-			.nav li ul li {
-				position:relative;
-			}
+            .nav li ul li {
+		position:relative;
+            }
 			
-			.nav li ul li ul {
-				right:-140px;
-				top:0px;
-			}
+            .nav li ul li ul {
+		right:-140px;
+		top:0px;
+            }
 			
-		</style>
+        </style>
     </head>
     <header>
         <div>
@@ -75,37 +75,22 @@ and open the template in the editor.
         </div>
     </header>
     <body>
-		<div id="header">
-			<ul class="nav">
-				<li><a href="">INICIO</a></li>
-				<li><a href="">LIBROS</a>
-					<ul>
-						<li><a href="">NOVELAS LITERARIAS</a></li>
-						<li><a href="">CUENTOS INFANTILES</a></li>
-						<li><a href="">COMICS</a></li>
-						<li><a href="">LIBROS CIENTIFICOS</a></li>
-					</ul>
-				</li>
-				<li><a href="">CONOCENOS</a></li>
-				<li><a href="http://localhost/LibrosLeon/iniciarSesion.php">INICIAR SESION</a></li>
-			</ul>
-		</div>
-	</body>
-    <center>
-        <button onclick="location.href='http://localhost:8383/proyectoWeb/inicio.html'">INICIO</button>
-
-        <button onclick="location.href='http://localhost:8383/proyectoWeb/Servicios.html'">LIBROS</button>
-
-        <button onclick="location.href='http://localhost:8383/proyectoWeb/consultas.html'">CONCENOS</button>
-
-    </center>
-
-    <body>
-        <button onclick="location.href='http://localhost/LibrosLeon/iniciarSesion.php'"style="position: absolute; top: 0; right:0;">Iniciar sesion / o registrarse</button>
+	<div id="header">
+            <ul class="nav">
+                <li><a href="">INICIO</a></li>
+                <li><a href="">LIBROS</a>
+                    <ul>
+                        <li><a href="http://localhost/LibrosLeon/novelasLiterarias.php">NOVELAS LITERARIAS</a></li>
+                        <li><a href="http://localhost/LibrosLeon/cuentosInfantiles.php">CUENTOS INFANTILES</a></li>
+                        <li><a href="http://localhost/LibrosLeon/comics.php">COMICS</a></li>
+                        <li><a href="http://localhost/LibrosLeon/librosCientificos.php">LIBROS CIENTIFICOS</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://localhost/LibrosLeon/conocenos.php">CONOCENOS</a></li>
+                <li><a href="http://localhost/LibrosLeon/iniciarSesion.php">INICIAR SESION</a></li>
+            </ul>
+	</div>
     </body>
-
-
-    
     <div>
         <center>
             <img src="https://concepto.de/wp-content/uploads/2015/08/literatura-e1505406155886.jpeg">
