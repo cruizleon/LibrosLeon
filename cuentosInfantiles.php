@@ -88,6 +88,7 @@
             <img src="https://www.aulapt.org/wp-content/uploads/2008/02/infantil.png"width="900" height="400"/>
         </center>
     </div>
+    <hr />
     <h1 style="color:white;">CUENTOS INFANTILES</h1>
     <h4 style="color:white;">es una narración breve creada por uno o varios autores, basada en hechos reales o 
         ficticios, cuya trama es protagonizada por un grupo reducido de personajes y con un argumento relativamente 

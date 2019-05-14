@@ -88,6 +88,7 @@
             <img src="https://queleerlibros.com/wp-content/uploads/2017/10/literatura-universal.jpg"width="900" height="400"/>
         </center>
     </div>
+    <hr />
     <h1 style="color:white;">NOVELAS LITERARIAS</h1>
     <h4 style="color:white;">Una novela es una obra literaria de carácter narrativo y de cierta extensión. Está escrita en prosa 
         y narra hechos ficticios o basados en hechos reales. La novela es también un género literario que incluye este tipo de obras. 

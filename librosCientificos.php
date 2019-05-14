@@ -88,6 +88,7 @@
             <img src="https://image.freepik.com/vector-gratis/coleccion-iconos-cientificos_23-2147504869.jpg"width="400" height="400"/>
         </center>
     </div>
+    <hr />
     <h1 style="color:white;">LIBROS CIENTIFICOS</h1>
     <h4 style="color:white;">Es un compendio de información inédita, generada a través del método científico en estudios 
         agronómicos, pecuarios y forestales.</h4>

@@ -89,7 +89,8 @@
             <img src="https://ccnesnoticias.com/wp-content/uploads/2019/03/148__c_comic_mobile3.jpg"width="900" height="400"/>
         </center>
     </div>
-    
+        
+    <hr />
     <h1 style="color:white;">COMICS</h1>
     <h4 style="color:white;">Relato o historia explicada mediante viñetas o recuadros que contienen ilustraciones y en el que 
         algunas o todas las viñetas pueden contener un texto más o menos breve.</h4>

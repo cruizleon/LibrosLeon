@@ -96,6 +96,7 @@ and open the template in the editor.
             <img src="https://concepto.de/wp-content/uploads/2015/08/literatura-e1505406155886.jpeg">
         </center>
     </div>
+    <hr />
     <h1 style="color:white;">NOVEDADES</h1>
     <div>
         <img src="https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/728906/728906._SX360_QL80_TTD_.jpg"width="200" height="300"/>
@@ -104,7 +105,7 @@ and open the template in the editor.
         <img src="https://laslecturasdeguillermo.files.wordpress.com/2012/10/historia-del-tiempo-editorial-crc3adtica.jpg"width="200" height="300"/>
         <button onclick="location.href='http://localhost:8383/proyectoWeb/inicio.html'">VER MAS</button>
     </div>
-    
+    <hr />
     <h1 style="color:white;">100% RECOMENDADOS</h1>
     <div>
         <img src="https://crm.librerianacional.com/upload/63e8b456-e2cb-cec2-9609-5c785080297c_imagen"width="200" height="300"/>
@@ -113,7 +114,7 @@ and open the template in the editor.
         <img src="https://imagessl9.casadellibro.com/a/l/t0/19/9788466664219.jpg"width="200" height="300"/>
         <button onclick="location.href='http://localhost:8383/proyectoWeb/inicio.html'">VER MAS</button>
     </div>
-    
+    <hr />
     <h1 style="color:white;">EDITORIALES</h1>
     <div>
         <img src="http://www.edicionesnorma.com/wp-content/uploads/2015/07/logo_norma.png">

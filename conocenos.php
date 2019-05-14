@@ -19,7 +19,7 @@
             una tienda virtual, con el objetivo de fomentar la compra y lectira de libros en el pais.</h3>
         </div>
         
-
+        <hr />
         <h1 style="color:white;">¿POR QUE COMPRAR EN LIBROS LEON?</h1>
         <div>
             <img src="https://es.cuberspremium.com/wp-content/uploads/sites/2/2015/12/icono-porque-cubers.png"width="100" height="100"/>
@@ -28,7 +28,7 @@
             mayor comodidiad a la hora de comprar productos.</h3>
         </div>
         
-
+        <hr />
         <h1 style="color:white;">NUSTROS CONTACTOS</h1>
         <div>
             <img src="https://cdn.icon-icons.com/icons2/72/PNG/256/email_14410.png"width="100" height="100"/>
