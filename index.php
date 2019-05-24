@@ -71,7 +71,7 @@ and open the template in the editor.
     </head>
     <header>
         <div>
-            <img src="MEOWS 'N' WOOFS.jpg">
+            <img src="static/img/logo.JPG">
         </div>
     </header>
     <body>
@@ -87,7 +87,7 @@ and open the template in the editor.
                     </ul>
                 </li>
                 <li><a href="http://localhost/LibrosLeon/conocenos.php">CONOCENOS</a></li>
-                <li><a href="http://localhost/LibrosLeon/iniciarSesion.php">INICIAR SESION</a></li>
+                <li><a href="http://localhost/LibrosLeon/login.html">INICIAR SESION</a></li>
             </ul>
 	</div>
     </body>

@@ -63,7 +63,7 @@
     </head>
     <header>
         <div>
-            <img src="MEOWS 'N' WOOFS.jpg">
+            <img src="static/img/logo.JPG">
         </div>
     </header>
     <body>

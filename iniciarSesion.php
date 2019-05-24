@@ -34,7 +34,7 @@ and open the template in the editor.
         <header>
             <header>
                 <div>
-                    <img src="MEOWS 'N' WOOFS.jpg">
+                    <img src="static/img/logo.JPG">
                 </div>
             </header>
             <h1 style="color:black;">INICIAR SESION</h1>
