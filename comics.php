@@ -7,63 +7,25 @@
         <meta charset="iso-8859-1">
         <title>Este texto es el título del documento</title>
         <link rel="stylesheet" href="misestilos.css">
-        <style type="text/css">
-			
-            * {
-		margin:0px;
-		padding:0px;
-            }
-			
-            #header {
-		margin:auto;
-		width:500px;
-		font-family:Arial, Helvetica, sans-serif;
-            }
-			
-            ul, ol {
-		list-style:none;
-            }
-			
-            .nav > li {
-		float:left;
-            }
-			
-            .nav li a {
-		background-color:#000;
-		color:#fff;
-                text-decoration:none;
-		padding:10px 12px;
-		display:block;
-            }
-			
-            .nav li a:hover {
-                background-color:#434343;
-            }
-			
-            .nav li ul {
-		display:none;
-		position:absolute;
-		min-width:140px;
-            }
-			
-            .nav li:hover > ul {
-		display:block;
-            }
-			
-            .nav li ul li {
-		position:relative;
-            }
-			
-            .nav li ul li ul {
-		right:-140px;
-		top:0px;
-            }
-			
-        </style>
+        
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+    <!-- Los iconos tipo Solid de Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Nuestro css-->
+    <link rel="stylesheet" type="text/css" href="static/css/index.css" th:href="@{/css/index.css}">
+            
     </head>
     <header>
         <div>
-            <img src="static/img/logo.JPG">
+            <img src="static/img/logo.png" th:src="@{/img/logo.png}"width="150" height="150"/>
         </div>
     </header>
     <body>
@@ -79,7 +41,7 @@
                     </ul>
                 </li>
                 <li><a href="http://localhost/LibrosLeon/conocenos.php">CONOCENOS</a></li>
-                <li><a href="http://localhost/LibrosLeon/iniciarSesion.php">INICIAR SESION</a></li>
+                <li><a href="http://localhost/LibrosLeon/login.html">INICIAR SESION</a></li>
             </ul>
 	</div>
     </body>
@@ -114,10 +76,9 @@
         <img src="https://static8planetadelibroscom.cdnstatics.com/usuaris/libros/fotos/258/m_libros/portada_star-wars-episodio-viii-battlefront-escuadron-inferno-novela_christie-golden_201711071115.jpg"width="200" height="300"/>
         <img src="https://cloud10.todocoleccion.online/comics-panini/tc/2014/02/11/18/41528140_18510382.jpg"width="200" height="300"/>
     </div>
+    <footer style="color:white;">
+        Derechos Reservados &copy; 2019
+    </footer>
 </html>
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 

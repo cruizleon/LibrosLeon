@@ -14,66 +14,28 @@ and open the template in the editor.
         <meta charset="iso-8859-1">
         <title>Este texto es el título del documento</title>
         <link rel="stylesheet" href="misestilos.css">
+        
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+    <!-- Los iconos tipo Solid de Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Nuestro css-->
+    <link rel="stylesheet" type="text/css" href="static/css/index.css" th:href="@{/css/index.css}">
             
-        <style type="text/css">
-			
-            * {
-		margin:0px;
-		padding:0px;
-            }
-			
-            #header {
-		margin:auto;
-		width:500px;
-		font-family:Arial, Helvetica, sans-serif;
-            }
-			
-            ul, ol {
-		list-style:none;
-            }
-			
-            .nav > li {
-		float:left;
-            }
-			
-            .nav li a {
-		background-color:#000;
-		color:#fff;
-                text-decoration:none;
-		padding:10px 12px;
-		display:block;
-            }
-			
-            .nav li a:hover {
-                background-color:#434343;
-            }
-			
-            .nav li ul {
-		display:none;
-		position:absolute;
-		min-width:140px;
-            }
-			
-            .nav li:hover > ul {
-		display:block;
-            }
-			
-            .nav li ul li {
-		position:relative;
-            }
-			
-            .nav li ul li ul {
-		right:-140px;
-		top:0px;
-            }
-			
-        </style>
     </head>
     <header>
         <div>
-            <img src="static/img/logo.JPG">
+            <img src="static/img/logo.png" th:src="@{/img/logo.png}"width="150" height="150"/>
         </div>
     </header>
+    
     <body>
 	<div id="header">
             <ul class="nav">
@@ -85,10 +47,11 @@ and open the template in the editor.
                         <li><a href="http://localhost/LibrosLeon/comics.php">COMICS</a></li>
                         <li><a href="http://localhost/LibrosLeon/librosCientificos.php">LIBROS CIENTIFICOS</a></li>
                     </ul>
+                    
                 </li>
                 <li><a href="http://localhost/LibrosLeon/conocenos.php">CONOCENOS</a></li>
                 <li><a href="http://localhost/LibrosLeon/login.html">INICIAR SESION</a></li>
-            </ul>
+            </ul> 
 	</div>
     </body>
     <div>
@@ -103,7 +66,9 @@ and open the template in the editor.
         <img src="https://imagessl5.casadellibro.com/a/l/t0/55/9788401336355.jpg"width="200" height="300"/>
         <img src="https://i.pinimg.com/originals/a0/dc/9e/a0dc9ee734c1a8ac0ffd7f1e728c13db.jpg"width="200" height="300"/>
         <img src="https://laslecturasdeguillermo.files.wordpress.com/2012/10/historia-del-tiempo-editorial-crc3adtica.jpg"width="200" height="300"/>
-        <button onclick="location.href='http://localhost:8383/proyectoWeb/inicio.html'">VER MAS</button>
+        <ul class="nav">
+            <li><a href="">VER MAS</a></li>
+        </ul>
     </div>
     <hr />
     <h1 style="color:white;">100% RECOMENDADOS</h1>
@@ -112,15 +77,19 @@ and open the template in the editor.
         <img src="https://images-na.ssl-images-amazon.com/images/I/41HHYqg6rWL._SX304_BO1,204,203,200_.jpg"width="200" height="300"/>
         <img src="https://crm.librerianacional.com/upload/c3d6a30b-f581-78b6-1ca3-5be70378cca9_imagen"width="200" height="300"/>
         <img src="https://imagessl9.casadellibro.com/a/l/t0/19/9788466664219.jpg"width="200" height="300"/>
-        <button onclick="location.href='http://localhost:8383/proyectoWeb/inicio.html'">VER MAS</button>
+        <ul class="nav">
+            <li><a href="">VER MAS</a></li>
+        </ul>
     </div>
-    <hr />
+    <hr style="color:white" />
     <h1 style="color:white;">EDITORIALES</h1>
     <div>
         <img src="http://www.edicionesnorma.com/wp-content/uploads/2015/07/logo_norma.png">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Logo_Editorial_Polar.png"width="200" height="300"/>
         <img src="http://www.replica.es/wp-content/uploads/2015/11/Planeta-300x200.png"/>
-        <button onclick="location.href='http://localhost:8383/proyectoWeb/inicio.html'">VER MAS</button>
+        <ul class="nav">
+            <li><a href="">VER MAS</a></li>
+        </ul>
     </div>
     <body background="https://i1.wp.com/www.ayudacelular.com/wp-content/uploads/2017/10/fondo-negro.jpg?ssl=1">
     
