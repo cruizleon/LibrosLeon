@@ -5,7 +5,7 @@
         <meta name="description" content="Ejemplo de HTML5">
         <meta name="keywords" content="HTML5, CSS3, JavaScript">
         <meta charset="iso-8859-1">
-        <title>Este texto es el título del documento</title>
+        <title>Cuentos Infantiles</title>
         <link rel="stylesheet" href="misestilos.css">
         
     <!--JQUERY-->
@@ -53,7 +53,7 @@
     </div>
     <hr />
     <h1 style="color:white;">CUENTOS INFANTILES</h1>
-    <h4 style="color:white;">es una narración breve creada por uno o varios autores, basada en hechos reales o 
+    <h4 style="color:white;">Es una narración breve creada por uno o varios autores, basada en hechos reales o 
         ficticios, cuya trama es protagonizada por un grupo reducido de personajes y con un argumento relativamente 
         sencillo.</h4>
     <div>
