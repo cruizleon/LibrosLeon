@@ -52,68 +52,37 @@
 		$apellido=$_POST["Ape"];
 		$direccion=$_POST["Dir"];
                 $numero_cedula=$_POST["NumC"];
-		$sql="INSERT INTO DATOS_USUARIOS(NOMBRE, APELLIDO, DIRECCION, NUMBERO_CEDULA) VALUES (:nom, :ape, :dir, :numc)";
+		$sql="INSERT INTO DATOS_USUARIOS(NOMBRE, APELLIDO, DIRECCION, NUMERO_CEDULA) VALUES (:nom, :ape, :dir, :numc)";
 		$resultado=$base->prepare($sql);
 		$resultado->execute(array(":nom"=>$nombre, ":ape"=>$apellido, ":dir"=>$direccion, ":numc"=>$numero_cedula));
 		header("Location:registro.php");
 	}
 ?>
 
-<h1>Registro</h1>
+
 <form action="?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+    <center>
   <table width="50%" border="0" align="center">
     <tr >
       
-      <td class="primera_fila">Nombre</td>
-      <td class="primera_fila">Apellido</td>
-      <td class="primera_fila">Dirección</td>
-      <td class="primera_fila">Numero_cedula</td>
+      
       <td class="sin">&nbsp;</td>
       <td class="sin">&nbsp;</td>
       <td class="sin">&nbsp;</td>
       <td class="sin">&nbsp;</td>
     </tr>
 
-	<?php
-		foreach($registros as $persona):?>
-			<tr>
-			  <td><?php echo $persona->Nombre?></td>
-			  <td><?php echo $persona->Apellido?></td>
-			  <td><?php echo $persona->Direccion?></td>
-                          
-			  <td><?php echo $persona->Numero_cedula?> </td>
-			</tr>
-    <?php
-		endforeach;
-	?>
+	
+		
 	<tr>
-    <div class="modal-dialog text-center">
-        <div class="col-smection">
-            <div class="modal-content">-8 main-s
-                <div class="col-12 user-img">
-                    <img src="static/img/user.png" th:src="@{/img/user.png}"class="border border-warning"/>
-                </div>
-                <form class="col-12" th:action="@{/login}" method="get">
-                    <p class="font-weight-bolder text-warning">Registro</p>
-                    <div class="form-group" id="user-group">
-                        <input type="text" class="form-control" placeholder="Nombre Usuario" name="Nombre"/>
-                    </div>
-                    <div class="form-group" id="user-group">
-                        <input type="text" class="form-control" placeholder="Apellido" name="Apellido"/>
-                    </div>
-                    <div class="form-group" id="user-group">
-                        <input type="text" class="form-control" placeholder="Direccion" name="Direccion"/>
-                    </div>
-                    <div class="form-group" id="user-group">
-                        <input type="text" class="form-control" placeholder="Numero cedula" name="Numero_cedula"/>
-                    </div>
-                    <button type="submit" class="btn btn-warning" name='cr' id='cr'><i class="fas fa-sign-in-alt"></i>  Incertar </button>
-              
-                </form>
-            </div>
-        </div>
-    </div>
+	<td></td>
+      <td><input type='text' name='Nom' size='10' class='centrado 'placeholder="Nombre" name="username"></td>
+      <td><input type='text' name='Ape' size='10' class='centrado'placeholder="Apellido" name="username"></td>
+      <td><input type='text' name='Dir' size='10' class='centrado'placeholder="Direccion" name="username"></td>
+      <td><input type='text' name='NumC' size='10' class='centrado'placeholder="Cedula" name="username"></td>
+      <td class='bot'><input type='submit' name='cr' id='cr' value='Insertar'></td></tr>
   </table>
+        </center>
 </form>
 <p>&nbsp;</p>
 </body>
